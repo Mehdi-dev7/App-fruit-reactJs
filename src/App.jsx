@@ -1,5 +1,7 @@
 import Counter from "./pages/Counter/Counter";
 import Fruity from "./pages/Fruity/Fruity";
+import Users from "./pages/Users/Users";
+
 
 function App() {
 	return (
@@ -7,8 +9,12 @@ function App() {
 			<div className="mx-auto max-w-3xl pt-10 pb-20">
 				{/* 1.App */}
 				{/* <Counter /> */}
+
 				{/* 2.App */}
-				<Fruity />
+				{/* <Fruity /> */}
+				
+				{/* 3.App */}
+				<Users />
 			</div>
 		</div>
 	);
