@@ -11,7 +11,7 @@ const initialState = {
 		{
 			name: "Watermelon",
 			url: "/images/watermelon.jpg",
-			price: 5,
+			price: 7,
 			id: 25418963,
 		},
 	],

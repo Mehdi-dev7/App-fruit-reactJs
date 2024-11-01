@@ -3,7 +3,7 @@ import { increment, decrement, multiply, divide } from "../../features/counter";
 
 export default function CounterButton() {
 	const dispatch = useDispatch();
-	console.log(increment());
+	//console.log(increment());
 
 	return (
 		<div className="mb-4">

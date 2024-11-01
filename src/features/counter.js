@@ -22,7 +22,7 @@ export const counter = createSlice({
 		},
 	},
 });
-console.log(counter);
+//console.log(counter);
 
 export const { increment, decrement, multiply, divide } = counter.actions;
 export default counter.reducer;
